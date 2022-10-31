@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>T-Ivest</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Raleway:wght@200;400;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/hamburger.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <header class="header">
+    <button class="hamburger hamburger--spin" type="button">
+      <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+      </span>
+    </button>
+
+    <nav class="nav nav-mobile">
+      <a class="nav__link" href="#news">Aktualności</a>
+      <a class="nav__link" href="#offer">Oferta</a>
+      <a class="nav__link" href="#portfolio">Portfolio</a>
+      <a class="nav__link" href="#contact">Kontakt</a>
+    </nav>
+    <nav class="nav nav-desktop">
+      <a class="nav__link" href="#news">Aktualności</a>
+      <a class="nav__link" href="#offer">Oferta</a>
+      <a class="nav__link" href="#portfolio">Portfolio</a>
+      <a class="nav__link" href="#contact">Kontakt</a>
+    </nav>
+
+    <div class="header__text">
+      <h1 class="company-name">T-Invest</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quisquam est recusandae.</p>
+    </div>
+
+    <div class="header__img">
+      <div class="header__shadow"></div>
+    </div>
+
+    <a href="#cards">
+      <div class="header__arrow">
+        <img class="header__arrow-icon" src="img/icons/arrow-down.svg" alt="">
+      </div>
+    </a>
+
+    <img class="header__bg-icon-one" src="img/icons/square.svg" alt="">
+    <img class="header__bg-icon-two" src="img/icons/square.svg" alt="">
+  </header>
+
+  <main class="main">
+    <section class="cards" id="cards">
+      <div class="wrapper">
+        <div class="cards__box">
+          <div class="cards__card cards__card--one">
+            <img src="img/icons/trending-up.svg" class="cards__card--icon" alt="">
+            <h3>opracowanie scenariusza</h3>
+            <p>Prześlij nam materiały o swojej firmie, a my wybierzemy najistotniejsze treści i opracujemy gotowy
+              scenariusz prezentacji.</p>
+          </div>
+          <div class="cards__card cards__card--two">
+            <img src="img/icons/award.svg" class="cards__card--icon" alt="">
+            <h3>oprcowanie graficzne</h3>
+            <p>Nietuzinkowa szata graficzna jest bardzo ważna. Przygotujemy grafikę zgodną z przeznaczeniem prezentacji
+            </p>
+          </div>
+          <div class="cards__card cards__card--three">
+            <img src="img/icons/globe.svg" class="cards__card--icon" alt="">
+            <h3>sprawdzone rozwiązania</h3>
+            <p>W zależności od potrzeb, prezentację otrzymasz w formie umożliwiającej sprawne i szybkie posługiwanie się
+              tym narzędziem.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="wrapper">
+      <section class="info" id="offer">
+        <div class="info__title">
+          <h2 class="section-title">
+            Oferta <span>smart</span>
+          </h2>
+        </div>
+        <div class="info__boxes">
+          <div class="info__box">
+            <img src="./img/oferta_photo1.jpg" class="info__box-img"
+              alt="mężczyzna na tle notowań giełdowych cieszący się z wyników, ręce podniesione do góry w geście radości">
+            <h3 class="info__box-title">prezentacje</h3>
+            <p class="info__box-text">
+            <ul class="info__box-li">
+              <li>Prezentacje wynikowe</li>
+              <li>Prezentacje strategiczne</li>
+              <li>Prezentacje korporacyjne</li>
+            </ul>
+            </p>
+            <a href="#" class="info__box-link">więcej...</a>
+          </div>
+          <div class="info__box">
+            <img src="./img/oferta_photo2.jpg" class="info__box-img"
+              alt="otwary laptop na stoliku z wykresem pokazującym aktualne notowania">
+            <h3 class="info__box-title">modelowanie finansowe</h3>
+            <p class="info__box-text">
+            <ul class="info__box-li">
+              <li>Modelowanie finansowe dla małych i dużych firm</li>
+              <li>Modele wyceny DCF przedsiębiorstw</li>
+
+            </ul>
+            </p>
+            <a href="#" class="info__box-link">więcej...</a>
+          </div>
+          <div class="info__box">
+            <img src="./img/oferta_photo3.jpg" class="info__box-img" alt="stos monet z jedną postawioną na krawędzi">
+            <h3 class="info__box-title">pozostałe</h3>
+            <p class="info__box-text">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            </p>
+            <a href="#" class="info__box-link">więcej...</a>
+          </div>
+        </div>
+        <img src="./img/icons/square.svg" alt="" class="info__bg-icon info__bg-icon--one">
+        <img src="./img/icons/square.svg" alt="" class="info__bg-icon info__bg-icon--two">
+        <img src="./img/icons/x.svg" alt="" class="info__bg-icon info__bg-icon--three">
+        <img src="./img/icons/x.svg" alt="" class="info__bg-icon info__bg-icon--four">
+      </section>
+    </div>
+    <section class="portfolio" id="portfolio">
+      <div class="wrapper">
+        <h2 class="section-title">
+          Portfolio <span>smart</span>
+        </h2>
+        <div class="portfolio__box">
+          <img src="img/icons/briefcase.svg" alt="" class="portfolio__item prtfolio__item-icon">
+          <div class="portfolio__item portfolio__item-name">
+            <h3>Name one</h3>
+          </div>
+          <div class="portfolio__item portfolio__item-size">
+            <p><b>Wielkość firmy one</b></p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, praesentium.</p>
+          </div>
+          <div class="portfolio__item portfolio__item-data">
+            <p><b>Data realizacji</b></p>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+          <div class="portfolio__item portfolio__item-date">
+            <p><b>Dane finansowe</b></p>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+        <div class="portfolio__box">
+          <img src="img/icons/cast.svg"" alt="" class=" portfolio__item prtfolio__item-icon">
+          <div class="portfolio__item portfolio__item-name">
+            <h3>Name two</h3>
+          </div>
+          <div class="portfolio__item portfolio__item-size">
+            <p><b>Wielkość firmy one</b></p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ullam debitis fuga quibusdam excepturi,
+              similique nesciunt libero praesentium eos fugiat qui enim laudantium repellendus. Labore libero sequi
+              maxime dolores repellendus.</p>
+          </div>
+          <div class="portfolio__item portfolio__item-data">
+            <p><b>Data realizacji</b></p>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+          <div class="portfolio__item portfolio__item-date">
+            <p><b>Dane finansowe</b></p>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+        <div class="portfolio__box">
+          <img src="img/icons/film.svg" alt="" class="portfolio__item prtfolio__item-icon">
+          <div class="portfolio__item portfolio__item-name">
+            <h3>Name three</h3>
+          </div>
+          <div class="portfolio__item portfolio__item-size">
+            <p><b>Wielkość firmy</b></p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="portfolio__item portfolio__item-data">
+            <p><b>Data realizacji</b></p>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+          <div class="portfolio__item portfolio__item-date">
+            <p><b>Dane finansowe</b></p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="portfolio__box">
+          <img src="img/icons/globe.svg" alt="" class="portfolio__item prtfolio__item-icon">
+          <div class="portfolio__item portfolio__item-name">
+            <h3>Name four</h3>
+          </div>
+          <div class="portfolio__item portfolio__item-size">
+            <p><b>Wielkość firmy</b></p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, quibusdam?</p>
+          </div>
+          <div class="portfolio__item portfolio__item-data">
+            <p><b>Data realizacji</b></p>
+            <p>Lorem, ipsum dolor.</p>
+          </div>
+          <div class="portfolio__item portfolio__item-date">
+            <p><b>Dane finansowe</b></p>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="newsletter">
+      <div class="wrapper newsletter__wrapper">
+        <div class="newsletter__text">
+          <p>Dołącz do newslettera</p>
+        </div>
+        <div class="newsletter__form">
+          <input type="text">
+          <button>Subskrybcja</button>
+        </div>
+      </div>
+    </section>
+    <section class="gallery">
+      <img src="img/gallery/1.jpg" alt="złoty jeden bitcoin">
+      <img src="img/gallery/2.jpg" alt="oszlifowany diament">
+      <img src="img/gallery/3.jpg" alt="słuchawki ze złotymi elementami i mała sztabka złota">
+      <img src="img/gallery/4.jpg" alt="jeden bitcoin">
+      <img src="img/gallery/5.jpg" alt="oszlifowany diament">
+      <img src="img/gallery/6.jpg" alt="słuchawki i bitcoin">
+      <img src="img/gallery/7.jpg" alt="kilka stu-dolarówek">
+      <img src="img/gallery/8.jpg" alt="dwa złote bitcoiny">
+    </section>
+    <section class="contact" id="contact">
+      <div class="wrapper">
+        <h2 class="section-title">Skontaktuj się z <span>nami</span></h2>
+        <form class="contact__form">
+          <div class="contact__form-box">
+            <label for="name">Twoje imię:</label>
+            <input type="text" id="name">
+          </div>
+          <div class="contact__form-box">
+            <label for="mail">Twoje email:</label>
+            <input type="email" id="mail">
+          </div>
+          <div class="contact__form-box">
+            <label for="msg">Twoja wiadomość:</label>
+            <textarea id="msg" cols="30" rows="10"></textarea>
+          </div>
+          <button type="submit" class="contact__form-btn">Wyślij</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="footer__bottom-text">&copy; <span class="footer__year"></span> T-Invest</p>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
